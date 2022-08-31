@@ -90,6 +90,7 @@ output {
     margin: 20px auto;
     padding: 10px;
     border-radius: 10px;
+    text-align: left;
 }
 
 button {
