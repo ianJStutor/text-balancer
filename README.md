@@ -14,6 +14,8 @@ Dynamic Text can be "ragged" along one or both vertical edges or may have only o
 
 "Balance" here means that each line of text is as close as possible to a uniform width.
 
+Since balancing requires multiple lines of text, this tool does not work on a single line of text.
+
 Built with vanilla JavaScript, my favorite flavor!
 
 ### Usage
