@@ -14,5 +14,6 @@ function addText() {
 }
 
 function handleClick() {
+    output.style.minHeight = "auto";
     balanceText(output);
 }
