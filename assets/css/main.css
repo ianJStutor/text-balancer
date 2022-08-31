@@ -10,6 +10,7 @@
     --canvas-color-light: var(--light);
     --highlight: rebeccapurple;
     --highlight-light: #c2add6;
+    --highlight-dark: #391d56;
 }
 
 html {
@@ -84,11 +85,26 @@ output {
     background-color: var(--highlight-light);
     width: 90%;
     max-width: 500px;
-    height: 200px;
+    min-height: 300px;
     display: block;
     margin: 20px auto;
     padding: 10px;
     border-radius: 10px;
+}
+
+button {
+    font-size: 2em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid var(--highlight);
+    background-color: var(--highlight-dark);
+    color: var(--light);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: var(--highlight);
 }
 
 *::selection {
