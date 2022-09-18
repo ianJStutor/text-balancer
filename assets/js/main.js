@@ -2,9 +2,7 @@ import { balanceText } from "../../text-balancer.js";
 
 function balanceLinesOfText() {
     const h3 = document.querySelector("header h3");
-    console.log(h3.getBoundingClientRect());
     balanceText(h3);
-    console.log(h3.getBoundingClientRect());
 }
 balanceLinesOfText();
 window.addEventListener("resize", balanceLinesOfText);

@@ -1,14 +1,8 @@
 # Text Balancer
 
-## Ian Marshall
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-### Live Site
-
-> [https://ianjstutor.github.io/text-balancer/](https://ianjstutor.github.io/text-balancer/)
-
-### Description
+## Description
 
 Dynamic Text can be "ragged" along one or both vertical edges or may have only one word on its last line. This tool can help.
 
@@ -18,11 +12,19 @@ Since balancing requires multiple lines of text, this tool does not work on a si
 
 Built with vanilla JavaScript, my favorite flavor!
 
-### Usage
+## Author
+
+> [Ian Marshall](https://ianjstutor.github.io/ian-marshall/)
+
+## Live Site
+
+> [https://ianjstutor.github.io/text-balancer/](https://ianjstutor.github.io/text-balancer/)
+
+## Usage
 
 Include <code>text-balancer.js</code> in your project. Import the JS into your main JavaScript file and call <code>balanceText(element)</code>, where <code>element</code> is an HTML element containing text you want to balance.
 
-#### HTML
+### HTML
 
 ```html
 <head>
@@ -39,7 +41,7 @@ Include <code>text-balancer.js</code> in your project. Import the JS into your m
 </body>
 ```
 
-#### JavaScript
+### JavaScript
 
 ```js
 //main.js
@@ -48,15 +50,15 @@ const element = document.querySelector("p");
 balanceText(element);
 ```
 
-### Documentation
+## Documentation
 
-#### Module Export
+### Module Export
 
 ```js
 export { balanceText };
 ```
 
-#### Public Method
+### Public Method
 
 ```js
 function balanceText(elementWithText) {}
