@@ -19,7 +19,7 @@ function balanceText(elementWithText) {
 function getMaxPadding(el, {width, height, paddingLeft, paddingRight} = {}) {
 	const div = document.createElement("div");
 	div.style.position = "absolute";
-	div.style.left = 0; div.style.top=0; div.style.background="white";//"-9999px";
+	div.style.left = "-9999px";
 	div.style.width = width + "px";
 	div.style.boxSizing = "border-box";
 	div.dataset.padL = paddingLeft ?? 0;
