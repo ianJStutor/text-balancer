@@ -1,3 +1,5 @@
+> NOTE: This was written before the CSS property <code>text-wrap</code> had its experimental value <code>balance</code>. This JavaScript comes close to replicating the behavior now available in CSS. If your browser supports <code>text-wrap: balance</code>, consider using that instead.
+
 # Text Balancer
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
